@@ -12,17 +12,12 @@ Because i is equal to 3.ِ And 1000 + i= 1002 ms  , And that's how long the aler
  
  -----------------------------------
  
- function addSix(n)
- {
-return function (y)
-
-{
-    n+y;
-};
- };
+ function addSix(n) {return function (y){n+y};};
 
  var addSix = createBase(6);
+ 
  addSix(10);
+ 
  addSix(21);
  
  -------------------------
