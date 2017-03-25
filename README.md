@@ -21,8 +21,7 @@ return function (y)
 };
  };
 
- var add = 6;
-
+ var addSix = createBase(6);
  addSix(10);
  addSix(21);
  
