@@ -21,9 +21,6 @@ Because i is equal to 3.ِ And 1000 + i= 1002 ms  , And that's how long the aler
  addSix(21);
  
  -------------------------
-
-
-
 <button id="btn-0">Button 1!</button>
 
 <button id="btn-1">Button 2!</button>
@@ -41,6 +38,6 @@ Because i is equal to 3.ِ And 1000 + i= 1002 ms  , And that's how long the aler
         
         document.getElementById('btn-' + btnNum).onclick =fun(btnNum);
     };
-    
 </script>
-------------------------------------------
+
+
