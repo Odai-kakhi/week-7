@@ -1,0 +1,56 @@
+<html>
+<head>
+</head>
+<body>
+
+  <div>
+
+  <h2>answer this quastions</h2>
+  </div>
+<div>
+<h3>Q1:What (Dank je) means</h3>
+   <input type="text" id="Q1" />
+</div>
+
+   <div>
+<h3>Q2:What (Tot ziens) means</h3>
+   <input type="text" id="Q2" />
+</div>
+
+
+  <div>
+<h3>Q3:What (auto) means</h3>
+   <input type="text" id="Q3" />
+</div>
+
+<button onclick="output()">submit</button>
+
+
+
+   <p id="demo"></p>
+
+
+
+   <script>
+
+
+
+
+   function output() {
+var answers =['thank you' , 'see you' , 'car'];
+var y = document.getElementById("Q1").value,
+    z = document.getElementById("Q2").value,
+    f = document.getElementById("Q3").value;
+ if(y == answers[0] && z == answers[1] && f == answers[2])
+ {
+   document.getElementById('demo').innerHTML='good answer';
+ }
+ else {
+  document.getElementById('demo').innerHTML='bad answer';
+ }
+};
+   </script>
+
+</body>
+
+</html>
