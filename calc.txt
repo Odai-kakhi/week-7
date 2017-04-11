@@ -1,0 +1,49 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+<h2>answer this quastions</h2>
+</div>
+<div>
+Enter the first number
+<input type="text" id="num1">
+</div>
+<br/>
+<div>
+Enter the second number
+<input type="text" id="num2">
+</div>
+<button onclick="output1()">+</button>
+<button onclick="output2()">-</button>
+<button onclick="output3()">*</button>
+<button onclick="output4()">/</button>
+<p id="demo"></p>
+<script>
+  var x,y;  
+function output1() {
+x = document.getElementById('num1').value,
+y = document.getElementById('num2').value;
+document.getElementById('demo').innerHTML= Number(x) + Number(y);
+};
+
+function output2() {
+x = document.getElementById('num1').value,
+y = document.getElementById('num2').value;
+document.getElementById('demo').innerHTML= x-y;
+};
+
+function output3() {
+x = document.getElementById('num1').value,
+y = document.getElementById('num2').value;
+document.getElementById('demo').innerHTML= x*y;
+};
+
+function output4() {
+x = document.getElementById('num1').value,
+y = document.getElementById('num2').value;
+document.getElementById('demo').innerHTML= x/y;
+}; 
+</script>
+</body>
+</html>
